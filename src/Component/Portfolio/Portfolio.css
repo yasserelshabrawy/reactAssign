@@ -1,0 +1,13 @@
+.overlay {
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.6s ;
+  -webkit-transition: 0.6s ;
+  -moz-transition: 0.6s ;
+  -ms-transition: 0.6s ;
+  -o-transition: 0.6s ;
+}
+.overlay:hover {
+  opacity: 1;
+}

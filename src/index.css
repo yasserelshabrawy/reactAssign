@@ -1,0 +1,67 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+:root{
+  --main-blue:#2c3e50;
+  --main-skye:#1abc9c;
+}
+nav{
+  background-color: var(--main-blue);
+}
+
+
+.line{
+  background-color: white;
+  height: 4px;
+  width: 80px;
+}
+.lineDark{
+  background-color: var(--main-blue);
+  height: 4px;
+  width: 80px;
+}
+
+footer{
+  background-color:var(--main-blue) ;
+}
+.bgMain{
+  background-color: var(--main-skye);
+}
+.active{
+  background-color: var(--main-skye);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.social ul li{
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.textDark{
+  color: var(--main-blue);
+}
+
+.btn:hover , :not(.btn-check)+.btn:active {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--main-skye)
+}
